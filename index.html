@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LesterAI - Your Personal AI Agent</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .feature-icon {
+      font-size: 3rem;
+      color: #0d6efd;
+    }
+    .pricing-plan {
+      transition: transform 0.3s ease;
+    }
+    .pricing-plan:hover {
+      transform: scale(1.05);
+    }
+    .bg-gradient {
+      background: linear-gradient(90deg, #0d6efd, #6610f2);
+      color: white;
+    }
+    .faq-item {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="bg-dark text-white py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <h1 class="h3 mb-0">LesterAI</h1>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link text-white" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#use-cases">Use Cases</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#pricing">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#signup" class="btn btn-warning">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Meet LesterAI: Your Personal AI Agent</h1>
+      <p class="lead mt-3">Empower your business and daily life with a smart, adaptable AI agent that works for you.</p>
+      <a href="#features" class="btn btn-light btn-lg mt-4">Discover Features</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Why LesterAI?</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="feature-icon mb-3">
+            <i class="bi bi-lightbulb"></i>
+          </div>
+          <h5>Intelligent Decision-Making</h5>
+          <p>Analyze data, predict outcomes, and offer actionable recommendations tailored to your goals.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-icon mb-3">
+            <i class="bi bi-clock-history"></i>
+          </div>
+          <h5>24/7 Availability</h5>
+          <p>Your AI agent is always ready to assist, no matter the time or day.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="feature-icon mb-3">
+            <i class="bi bi-gear-fill"></i>
+          </div>
+          <h5>Customizable Solutions</h5>
+          <p>From customer support to personal productivity, LesterAI adapts to meet your unique needs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Use Cases Section -->
+  <section id="use-cases" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Explore Use Cases</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Customer Support Automation</h5>
+              <p class="card-text">Enhance customer experience with AI-driven chatbots that provide quick, accurate responses to queries.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Personal Productivity Assistant</h5>
+              <p class="card-text">Organize your schedule, set reminders, and track tasks with ease using a personalized AI assistant.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Data Analysis & Reporting</h5>
+              <p class="card-text">Transform raw data into meaningful insights with AI-powered analytics and automated reports.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">E-commerce Assistance</h5>
+              <p class="card-text">Boost online sales with AI tools for inventory management, personalized recommendations, and more.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Choose Your Plan</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card pricing-plan border-primary shadow-sm">
+            <div class="card-header bg-primary text-white">Basic</div>
+            <div class="card-body">
+              <h3 class="card-title">$19.99/month</h3>
+              <p class="card-text">Essential features for personal use.</p>
+              <ul class="list-unstyled">
+                <li>✔ Task Management</li>
+                <li>✔ Email Assistance</li>
+                <li>✔ Basic Analytics</li>
+              </ul>
+              <a href="#" class="btn btn-primary">Get Started</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card pricing-plan border-success shadow-sm">
+            <div class="card-header bg-success text-white">Pro</div>
+            <div class="card-body">
+              <h3 class="card-title">$49.99/month</h3>
+              <p class="card-text">Advanced tools for small businesses.</p>
+              <ul class="list-unstyled">
+                <li>✔ Chatbot Integration</li>
+                <li>✔ Advanced Analytics</li>
+                <li>✔ Custom Workflows</li>
+              </ul>
+              <a href="#" class="btn btn-success">Get Started</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card pricing-plan border-danger shadow-sm">
+            <div class="card-header bg-danger text-white">Enterprise</div>
+            <div class="card-body">
+              <h3 class="card-title">Custom Pricing</h3>
+              <p class="card-text">Tailored solutions for large organizations.</p>
+              <ul class="list-unstyled">
+                <li>✔ Dedicated AI Agent</li>
+                <li>✔ Priority Support</li>
+                <li>✔ Unlimited Integrations</li>
+              </ul>
+              <a href="#" class="btn btn-danger">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+              What is LesterAI?
+            </button>
+          </h2>
+          <div id="faq1" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+              LesterAI is an advanced AI agent designed to assist with personal productivity, business operations, and customer engagement.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+              Is LesterAI secure?
+            </button>
+          </h2>
+          <div id="faq2" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              Yes, security is our top priority. All data is encrypted and handled with strict privacy policies.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 LesterAI. All rights reserved.</p>
+      <div>
+        <a href="#" class="text-white mx-2">LinkedIn</a>
+        <a href="#" class="text-white mx-2">Twitter</a>
+        <a href="#" class="text-white mx-2">Facebook</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
